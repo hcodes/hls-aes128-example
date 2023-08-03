@@ -3,7 +3,7 @@
 #EXT-X-TARGETDURATION:17
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
-#EXT-X-KEY:METHOD=AES-128,URI="https://hcodes.github.io/hls-aes128-example/264-fmpeg-aes/enc.key",IV=0xf86f5e2b7200442b5b296dcac72a2759
+#EXT-X-KEY:METHOD=AES-128,URI="https://hcodes.github.io/hls-aes128-example/264-fmpeg-aes/enc.key",IV=0xe9613f1cf4a4229ef012ce96a3726cdf
 #EXT-X-MAP:URI="enc/init.enc.mp4"
 #EXTINF:10.416667,
 enc/sample0.m4s
