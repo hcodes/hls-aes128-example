@@ -17,7 +17,7 @@ numberOfTsFiles=`ls ${splitFilePrefix}*.m4s | wc -l`
 
 for (( i=0; i<$numberOfTsFiles; i++ ))
 do
-openssl aes-128-cbc -e -in ${splitFilePrefix}$i.m4s -out ${encryptedSplitFilePrefix}$i.m4s -nosalt -iv $initializationVector -K $encryptionKey
+openssl aes-128-cbc -e -in ${splitFilePrefix}$i.m4s -out ${encryptedSplitFilePrefix}sample$i.m4s -nosalt -iv $initializationVector -K $encryptionKey
 
 done
 
