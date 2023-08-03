@@ -22,3 +22,4 @@ openssl aes-128-cbc -e -in ${splitFilePrefix}$i.m4s -out ${encryptedSplitFilePre
 done
 
 openssl aes-128-cbc -e -in init.mp4 -out ${encryptedSplitFilePrefix}init.enc.mp4 -nosalt -iv $initializationVector -K $encryptionKey
+cp init.mp4 enc/init.mp4

@@ -1,1 +1,1 @@
-
+`ffmpeg -i sample.mp4 -hls_time 9 -hls_key_info_file enc.keyinfo -hls_playlist_type vod -hls_segment_type fmp4 -hls_segment_filename "sample-%d.ts" sample.m3u8`
