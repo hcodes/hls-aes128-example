@@ -32,10 +32,10 @@ HLS playlist links:
 | 4.  | fMpeg + AES-128 + IV, variant 2 | No    | Yes | Yes |
 | 5.  | fMpeg + AES-128 + IV, variant 3 | No    | No | No   |
 | 6.  | fMpeg + AES-128 + IV, variant 4 | No    | Yes | Yes |
-| 7.  | fMpeg + AES-128 + no IV, variant 1 | ?    | ? | ? |
-| 8.  | fMpeg + AES-128 + no IV, variant 2 | ?    | ? | ? |
-| 9.  | fMpeg + AES-128 + no IV, variant 3 | ?    | ? | ? |
-| 10. | fMpeg + AES-128 + no IV, variant 4 | ?    | ? | ? |
+| 7.  | fMpeg + AES-128 + no IV, variant 1 | No    | No | No |
+| 8.  | fMpeg + AES-128 + no IV, variant 2 | Picture freeze    | Yes | Yes |
+| 9.  | fMpeg + AES-128 + no IV, variant 3 | Picture freeze | No | No |
+| 10. | fMpeg + AES-128 + no IV, variant 4 | No | Yes | Yes |
 
 No - error on `<source />` or not support.
 
