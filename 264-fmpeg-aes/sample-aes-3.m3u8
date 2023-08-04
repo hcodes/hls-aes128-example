@@ -4,7 +4,7 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
 #EXT-X-MAP:URI="enc/init.enc.mp4"
-#EXT-X-KEY:METHOD=AES-128,URI="https://hcodes.github.io/hls-aes128-example/264-fmpeg-aes/enc.key",IV=0xe9613f1cf4a4229ef012ce96a3726cdf
+#EXT-X-KEY:METHOD=AES-128,URI="https://hcodes.github.io/hls-aes128-example/264-fmpeg-aes/enc.key",IV=0x1587581958e4ba46395342e4dd39e0db
 #EXTINF:10.416667,
 enc/sample0.m4s
 #EXTINF:12.666667,
